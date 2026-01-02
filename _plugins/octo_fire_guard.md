@@ -59,6 +59,8 @@ Designed to address scenarios where hardware failures (such as a MOSFET failing 
 
 After installation, configure the plugin in OctoPrint Settings → Plugins → Octo Fire Guard:
 
+![settings screenshot](/assets/img/plugins/octo_fire_guard/settings-panel.png)
+
 ### Temperature Thresholds
 
 - **Hotend Threshold**: Maximum safe temperature for the hotend in °C (default: 250°C)
@@ -100,6 +102,9 @@ Integrates with the [PSU Control plugin](https://plugins.octoprint.org/plugins/p
 The plugin provides two test buttons in the settings panel to verify functionality:
 
 - **Test Alert System**: Tests the alert popup display without triggering emergency actions. This verifies that the visual alert, audio notification, and user interface components work correctly.
+
+![alert screenshot](/assets/img/plugins/octo_fire_guard/alert-modal.png)
+  
 - **Test Emergency Actions**: Tests the actual emergency response by executing your configured termination commands (GCode or PSU control). Use this to verify that your emergency shutdown procedure works correctly before an actual emergency occurs.
 
 **Important**: The "Test Emergency Actions" button will execute the real emergency shutdown commands configured in your termination settings. Make sure your printer is in a safe state before testing.
