@@ -4,7 +4,7 @@ layout: plugin
 id: octo_fire_guard
 title: Octo Fire Guard
 description: Temperature monitoring plugin that prevents fire hazards by monitoring hotend and heatbed temperatures in real-time
-author: OctoPrint Fire Guard Team
+author: rdar-lab
 license: MIT
 
 date: 2026-01-02
